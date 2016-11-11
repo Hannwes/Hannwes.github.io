@@ -1,0 +1,138 @@
+
+
+body {
+	background-image:url(svenskflag.jpg);
+	background-size:cover;
+	padding:0;
+	margin:0;
+}
+#storbox {
+	background-color:#FFF;
+	width: 65%;
+	height: 100%;
+	position:absolute;
+	margin-left: 17.5%;
+}
+header {
+	background-color:#FC0;
+	width: 100%;
+	height: 15%;
+	font-variant:small-caps;
+    font-size:36px;
+	text-align:center;
+	font-family:"Comic Sans MS", cursive;
+	line-height:350%;
+	color:#007FE5;
+}
+nav {
+	background-color:#FC0;
+	width: 100%;
+	height: 10%;
+	opacity:0.6;;
+}
+article {
+	background-color:#F0F9BF;
+	width: 80%;
+	height: 66.2%;
+	float:left;
+	text-align:center;
+}
+aside {
+	background-color:#F0F9BF;
+	width: 18.8%;
+	height: 65%;
+	float:left;	
+	border:1px #000;
+	border-style:none none none solid;
+	font-family:"Comic Sans MS", cursive;
+	font-size:20px;
+	padding:0.5%;
+}
+footer {
+	background-color:#F0F9BF;
+	width: 100%;
+	height: 6%;
+	clear:left;
+	border:1px #000;
+	border-style:solid none none none;
+	padding-top:2%;
+}
+ul {
+	list-style:none;
+	background-color:#000;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+li {
+	line-height: 500%;
+	text-align: center;
+	height: 100%;
+	width: 20%;
+	float: left;
+}
+
+a:link {
+	color:#007FE5;
+	font-size:24px;
+}
+
+a:visited {
+	color:#007FE5;
+	font-size:24px;
+}
+
+a:active {
+	color:#004277;
+	font-size:24px;
+}
+
+a:hover {
+	color:#0062B3;
+	font-size:24px;
+}
+.menylink:link {
+	text-decoration:none;
+	color:#007FE5;
+	font-size:24px;
+}
+
+.menylink:visited {
+	text-decoration:none;
+	color:#007FE5;
+	font-size:24px;
+}
+
+.menylink:active {
+	text-decoration:none;
+	color:#004277;
+	font-size:24px;
+}
+
+.menylink:hover {
+	text-decoration:underline;
+	color:#0062B3;
+	font-size:24px;
+}
+#source {
+	float:left;
+}
+#namn {
+	float:right;
+	font-size:24px;
+}
+.img {
+	float:left;
+}
+#pic {
+	width:80%;
+	float:right;
+}
+#pic2 {
+	width:70%;
+	float:right;
+}
+.img2 {
+	float:left;
+	margin-left:35%;
+}
