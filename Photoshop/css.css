@@ -37,49 +37,49 @@ li {
 
 .menylink:link {
 	text-decoration:none;
-	color:#007FE5;
+	color:#d5bea2;
 	font-size:100%;
 }
 
 .menylink:visited {
 	text-decoration:none;
-	color:#007FE5;
+	color:#d5bea2;
 	font-size:100%;
 }
 
 .menylink:active {
 	text-decoration:none;
-	color:#004277;
+	color:#d5bea2;
 	font-size:100%;
 }
 
 .menylink:hover {
 	text-decoration:underline;
-	color:#0062B3;
+	color:#d5bea2;
 	font-size:100%;
 }
 
 .fil:link {
 	text-decoration:none;
-	color:#007FE5;
+	color:#ecd3b4;
 	font-size:34px;
 }
 
 .fil:visited {
 	text-decoration:none;
-	color:#007FE5;
+	color:#ecd3b4;
 	font-size:34px%;
 }
 
 .fil:active {
 	text-decoration:none;
-	color:#004277;
+	color:#ecd3b4;
 	font-size:34px%;
 }
 
 .fil:hover {
 	text-decoration:underline;
-	color:004277;
+	color:#f5dab9;
 	font-size:38px;
 }
 
