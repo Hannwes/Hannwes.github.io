@@ -1,0 +1,216 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: aqua;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus {
+    color: aquamarine;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+header {
+    font-size: 100px;
+    height: 150px;
+    width: 100%;
+    color: red;
+    font-family: sans-serif;
+    background-color: lightgrey;
+    
+}
+
+.main {
+    background-color: black;
+    height: 80%;
+    width: 100%;
+				
+}
+/*
+#boxAxel {
+    float: left;
+    border-radius: 25px;
+    background: url(Axel.jpg);
+    background-size: cover;
+    padding: 20px;
+    width: 100px;
+    height: 150px;
+    transform: rotate(45deg);
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+#boxAxel:hover{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+#boxJesper {
+    float: left;
+    border-radius: 25px;
+    background: url(Jesper.jpg);
+    background-size: cover;
+    padding: 20px;
+    width: 100px;
+    height: 150px;
+    transform: rotate(-45deg);   
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+#boxJesper:hover{
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+}
+*/
+
+
+#headerText {
+    text-align: center;
+}
+
+#openBtn {
+    font-size: 30px;
+    cursor: pointer;
+    color: black;
+    float: left;
+}
+
+#boxRight1 {
+    float: left;
+    border-radius: 25px;
+    background: #212121;
+    background-size: cover;
+    padding: 20px;
+    width: 100px;
+    height: 150px;
+    transform: rotate(45deg);
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+#boxRight1:hover{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+#boxLeft1 {
+    float: left;
+    border-radius: 25px;
+    background: #FFF;
+    background-size: cover;
+    padding: 20px;
+    width: 100px;
+    height: 150px;
+    transform: rotate(-45deg);   
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+#boxLeft1:hover{
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+}
+#boxRight2 {
+    float: left;
+    border-radius: 25px;
+    background: #212121;
+    background-size: cover;
+    padding: 20px;
+    width: 100px;
+    height: 150px;
+    transform: rotate(45deg);
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+#boxRight2:hover{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+#boxLeft2 {
+    float: right;
+    margin-top: 190px;
+    margin-right: -285px;
+    border-radius: 25px;
+    background: #FFF;
+    background-size: cover;
+    padding: 20px;
+    width: 100px;
+    height: 150px;
+    transform: rotate(-45deg);   
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+#boxLeft2:hover{
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+}
+#boxJesper {
+    float: right;
+    margin-right: 30px;
+    border-radius: 25px;
+    background: url(Jesper.jpg);
+    background-size: cover;
+    padding: 20px;
+    width: 100px;
+    height: 150px;
+    transform: rotate(45deg);
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+#boxJesper:hover{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+#boxAxel {
+    float: right;
+    margin-right: 70px;
+    margin-top: 40px;
+    border-radius: 25px;
+    background: url(Axel.jpg);
+    background-size: cover;
+    padding: 20px;
+    width: 100px;
+    height: 150px;
+    transform: rotate(-45deg);   
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+#boxAxel:hover{
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+}
