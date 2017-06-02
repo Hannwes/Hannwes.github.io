@@ -1,0 +1,420 @@
+body {
+    margin: 0;
+    background-color: gray;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: aqua;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus {
+    color: aquamarine;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+header {
+    height: 150px;
+    width: 100%;
+    color: red;
+    font-family: sans-serif;
+    background: url(bilder/background.jpg);
+    border-bottom: 2px solid black;
+}
+
+.main {
+    background-color: black;
+    height: 80%;
+    width: 100%;
+				
+}
+
+h1 {
+	font-size: 100px;
+    font-size: 10vw;
+    text-align: center;
+	margin:0;
+	padding:0;
+	line-height: 150px;
+}
+
+#openBtn {
+    font-size: 40px;
+    font-size: 4vw;
+    cursor: pointer;
+    color: gray;
+    float: left;
+	padding-top: 40px;
+	padding-left: 10px;
+}
+
+#resetBox {
+	float: right;
+	font-size: 100px;
+	margin-right: 10px;
+	color: red;
+	cursor: pointer;
+}
+
+#boxar {
+    float: right;
+    margin: auto;
+	margin-right: 10%;
+	margin-top: 50px;
+    width: 40%;
+}
+
+.box:hover {
+	animation: loading 1s infinite;
+}
+
+@keyframes loading {
+  0%, 100% {
+    transform: translateY(0px);
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-15px);
+    animation-timing-function: ease-in;
+  }
+}
+
+#textBox{
+	height: 500px;
+	width: 40%;
+	background: black;
+    color: white;
+    border-radius: 15px;
+	float: left;
+	margin-top: 20px;
+	border: solid 5px white;
+}
+
+#textBoxStart{
+	height: 500px;
+	width: 40%;
+	background: black;
+    color: white;
+    border-radius: 15px;
+	float: left;
+	margin-top: 20px;
+	border: solid 5px white;
+}
+
+
+p{
+	font-size: 25px;
+    font-size: 1.5vw;
+	padding: 10px;
+	line-height: 80px;
+}
+
+#boxJesper {
+    float: right;
+    margin-right: -30px;
+    border-radius: 25px;
+    background: url(bilder/Jesper.jpg);
+    background-size: cover;
+    padding: 20px;
+    width: 100px;
+    height: 150px;
+    transform: rotate(45deg);
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+    border: 2px solid black;
+}
+#boxJesper:hover{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+#boxAxel {
+    float: right;
+    margin-right: 43px;
+    margin-top: 60px;
+    border-radius: 25px;
+    background: url(bilder/Axel.jpg);
+    background-size: cover;
+    padding: 20px;
+    width: 100px;
+    height: 150px;
+    transform: rotate(-45deg);   
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+    border: 2px solid black;
+}
+#boxAxel:hover{
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+}
+
+#boxFilip {
+    float: right;
+	margin-top: 200px;
+	margin-right: -285px;
+    border-radius: 25px;
+    background: url(bilder/Filip.jpg);
+    background-size: cover;
+    padding: 20px;
+    width: 100px;
+    height: 150px;
+    transform: rotate(-45deg);   
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+    border: 2px solid black;
+}
+#boxFilip:hover{
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+}
+
+#boxGreiff {
+    float: right;
+    margin-top: 140px;
+    margin-right: -440px;
+    border-radius: 25px;
+    background: url(bilder/Greiff.jpg);
+    background-size: cover;
+    padding: 20px;
+    width: 100px;
+    height: 150px;
+    transform: rotate(-45deg);   
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+    border: 2px solid black;
+}
+#boxGreiff:hover{
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+}
+
+#boxHannes{
+    float: right;
+	margin-top: 330px;
+	margin-right: -170px;
+    border-radius: 25px;
+    background: url(bilder/Hannes.jpg);
+    background-size: cover;
+    padding: 20px;
+    width: 100px;
+    height: 150px;
+    transform: rotate(45deg);
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+    border: 2px solid black;
+}
+#boxHannes:hover{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+#boxFredrik {
+    float: Right;
+	margin-right: -60px;
+	margin-top: 190px;
+    border-radius: 25px;
+    background: url(bilder/Fredrik.jpg);
+    background-size: cover;
+    padding: 20px;
+    width: 100px;
+    height: 150px;
+    transform: rotate(-45deg);
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+    border: 2px solid black;
+}
+#boxFredrik:hover{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+@media screen and (max-width: 1001px){
+    #textBox {width: 100%;}
+    #boxar {width: 500px;}
+    #boxJesper {transform: rotate(0deg); margin-right: 0px; margin-top: 0px; margin: 3px;}
+    #boxAxel {transform: rotate(0deg); margin-right: 0px; margin-top: 0px; margin: 3px;}
+    #boxFilip {transform: rotate(0deg); margin-right: 0px; margin-top: 0px; margin: 3px;}
+    #boxGreiff {transform: rotate(0deg); margin-right: 0px; margin-top: 0px; margin: 3px;}
+    #boxHannes {transform: rotate(0deg); margin-right: 0px; margin-top: 0px; margin: 3px;}
+    #boxFredrik {transform: rotate(0deg); margin-right: 0px; margin-top: 0px; margin: 3px;}
+}
+
+@media screen and (max-width: 550px){
+    #boxar {width: 350px;}
+}
+
+
+/* ======================================================================================== */
+/* ======================================================================================== */
+
+* {
+   margin: 0px;
+   padding: 0px;
+   outline: none;
+   text-decoration: none;
+   list-style: none;
+   border: 0px;
+   font-family: helvetica neue, helvetica, sans-serif;
+   font-smooth: always;
+}
+
+.slides {
+   width: 350px;
+   height: 750px;
+    float: right;
+   overflow: hidden;
+    margin-right: 20px;
+}
+
+.slidesContainer {
+   width: 1050px; 
+   -webkit-animation: slide 8s ease infinite;
+}
+
+.slides .slide {
+   width: 350px;
+   height: 700px;
+   float: left;
+}
+
+.slides a:nth-of-type(1) {
+    background: url(bilder/CounterStrike.jpg);
+    background-size: contain;
+}
+
+.slides a:nth-of-type(2) {
+    background: url(bilder/RocketLeague.jpg);
+    background-size: contain;
+}
+
+.slides a:nth-of-type(3) {
+    background: url(bilder/H1Z1.jpg);
+    background-size: contain;
+}
+
+@-webkit-keyframes slide {
+  15% {margin-left: 0px;}
+  30% {margin-left: 0px;}
+  45% {margin-left: -350px;}
+  60% {margin-left: -350px;}
+  75% {margin-left: -700px;}
+  90% {margin-left: -700px;}
+  100% {margin-left: 0px;}
+}
+
+@media screen and (max-width: 900px){
+    p {font-size: 25px;}
+    #textBoxStart {width: 90%; margin: 2%;}
+    .slides {margin-right: 30%; }
+}
+
+@media screen and (max-width: 718px){
+    p {font-size: 3vw;}
+}
+
+@media screen and (max-width: 550px){
+    .slides {margin-right: 5%;}
+}
+
+/* ======================================================================================== */
+/* ======================================================================================== */
+
+#kontaktBox{
+	height: 700px;
+	width: 90%;
+	background: black;
+    color: white;
+    border-radius: 15px;
+	border: solid 5px white;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.littleBox{
+    width: 90%;
+    height: 100px;
+    border-radius: 50px;
+    border: solid 5px white;
+    margin: auto;
+    margin-top: 90px;
+    font-size: 4.3vw;
+    line-height: 100px;
+}
+
+/* ======================================================================================== */
+/* ======================================================================================== */
+
+#sakerBox{
+	height: 700px;
+	width: 90%;
+	background: black;
+    color: white;
+    border-radius: 15px;
+	border: solid 5px white;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.smallBox{
+    height: 40%;
+    width: 25%;
+    border-radius: 25px;
+    border: solid 5px white;
+    float: left;
+    margin-left: 6%;
+    margin-top: 20px;
+}
+
+#pSaker{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px; 
+}
+
+.pSmall {
+    font-size: 1.4vw;
+}
+
+object {
+    width: 99%;
+}
+
+@media screen and (max-width: 550px){
+    .smallBox {width: 40%; height: 25%;}
+    #sakerBox {height: 850px;}
+    p {line-height: 20px;}
+}
