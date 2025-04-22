@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Sprouts Pre-Loved Baby Clothes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),
+                        url('baby.webp') center/cover fixed;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 30px;
+        }
+
+        header {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        h1 {
+            color: #2c4f6b;
+            font-size: 2.8em;
+            margin-bottom: 15px;
+        }
+
+        .tagline {
+            color: #5a5a5a;
+            font-size: 1.3em;
+            font-weight: 300;
+        }
+
+        .main-content {
+            background: rgba(255,255,255,0.9);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .sidebar {
+            background: rgba(255,255,255,0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            align-self: start;
+        }
+
+        h2 {
+            color: #2c4f6b;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #2c4f6b;
+            padding-bottom: 10px;
+        }
+
+        .contact-info p {
+            margin-bottom: 15px;
+            font-size: 0.95em;
+        }
+
+        footer {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 30px;
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+                padding: 15px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .tagline {
+                font-size: 1.1em;
+            }
+            
+            .main-content, .sidebar {
+                padding: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            .tagline {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Little Sprouts Pre-Loved Baby Clothes</h1>
+            <p class="tagline">Quality Gently-Used Clothing for Growing Babies</p>
+        </header>
+
+        <main class="main-content">
+            <section>
+                <h2>About Our Shop</h2>
+                <p>We specialize in carefully curated, gently-used baby clothes that are cleaned, sanitized, and ready for their next adventure. Our eco-friendly approach helps families save money while reducing textile waste. All items are quality-checked and range from newborn to 24 months sizes.</p>
+                <br>
+                <p>Visit us to find affordable, sustainable clothing options for your little one, or bring your outgrown items for consignment!</p>
+            </section>
+        </main>
+
+        <aside class="sidebar">
+            <section>
+                <h2>Contact & Location</h2>
+                <div class="contact-info">
+                    <p><strong>Address:</strong><br>
+                    123 Green Street<br>
+                    Springfield, ST 12345</p>
+                    
+                    <p><strong>Open:</strong><br>
+                    Mon-Sat: 10am - 6pm<br>
+                    Sun: 12pm - 4pm</p>
+                    
+                    <p><strong>Phone:</strong><br>
+                    <a href="tel:+12345556789">(234) 555-6789</a></p>
+                    
+                    <p><strong>Email:</strong><br>
+                    <a href="mailto:info@littlesprouts.com">info@littlesprouts.com</a></p>
+                </div>
+            </section>
+        </aside>
+
+        <footer>
+            <p>© 2024 Little Sprouts Pre-Loved Baby Clothes - Sustainable Style for Little Ones</p>
+        </footer>
+    </div>
+</body>
+</html>
